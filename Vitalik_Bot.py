@@ -8,7 +8,7 @@ from vk_api import VkUpload
 from vk_api.keyboard import VkKeyboard, VkKeyboardColor
 from vk_api.bot_longpoll import VkBotLongPoll, VkBotEventType
 #------------------------------------------------------------------------------------------------------------------------------
-vk_session = vk_api.VkApi(token='2a5bf1964f96294db3b007d41e6cbd6d857eafdcea486c89f5689aac8024da071047163d85da6e920780f')
+vk_session = vk_api.VkApi(token='2a5bf...920780f')
 longpoll = VkLongPoll(vk_session)
 vk = vk_session.get_api()
 
